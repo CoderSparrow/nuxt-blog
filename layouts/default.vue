@@ -1,5 +1,5 @@
 <template>
-  <el-container class="is-vertical">
+  <el-container class="is-vertical container">
     <AppHeader/>
 
     <el-main>
@@ -22,6 +22,9 @@ export default {
 }
 </script>
 
-<style>
-
+<style lang="scss" scoped>
+  .container {
+    margin: 0 auto;
+    width: 1200px;
+  }
 </style>
